@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+* html .clearfix {
+  height: 1%;
+  zoom: 1; }
+
+.clearfix {
+  display: block;
+  zoom: 1; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.header {
+  width: 100%;
+  height: 108px;
+  background: url(../img/nav.png) no-repeat center center;
+  overflow: hidden; }
+  .header .clearfix {
+    width: 1200px;
+    height: 90px;
+    margin: 0 auto;
+    line-height: 90px; }
+    .header .clearfix .hleft {
+      width: 250px;
+      height: 38px;
+      float: left; }
+      .header .clearfix .hleft a {
+        display: inline-block;
+        width: 250px;
+        height: 38px;
+        margin-top: 28px;
+        margin-left: 106px;
+        background: url(../img/logo.png) center center no-repeat;
+        z-index: 10; }
+    .header .clearfix .hright {
+      height: 90px;
+      float: right;
+      margin-right: 84px; }
+      .header .clearfix .hright a {
+        color: #fcb7b8;
+        margin: 0 21px;
+        text-decoration: none; }
+      .header .clearfix .hright a:link {
+        color: #fcb7b8; }
+      .header .clearfix .hright a:hover {
+        color: #fff; }
+      .header .clearfix .hright .a {
+        color: #fff; }
+
+.cooperation {
+  width: 100%;
+  height: 612px;
+  background: url(../img/company1.png) center center no-repeat;
+  background-position: 0 -88px;
+  margin-top: -20px; }
+
+.address {
+  width: 100%;
+  height: 700px;
+  background: url(../img/company2.png) center center no-repeat; }
+
+.partner {
+  width: 100%;
+  height: 614px;
+  background: url(../img/company3.png) center center no-repeat;
+  z-index: 10;
+  overflow: hidden; }
+  .partner .partner_div {
+    width: 1200px;
+    height: 284px;
+    margin: 0 auto;
+    margin-top: 274px; }
+    .partner .partner_div ul {
+      list-style: none;
+      width: 1000px;
+      margin-left: 105px;
+      height: 284px; }
+      .partner .partner_div ul li {
+        width: 188px;
+        height: 103px;
+        float: left;
+        padding-right: 11.1px;
+        padding-bottom: 37px;
+        overflow: hidden; }
+        .partner .partner_div ul li a {
+          display: inline-block;
+          width: 188px;
+          height: 103px;
+          text-decoration: none; }
+          .partner .partner_div ul li a img {
+            border: 0 none;
+            border: 1px solid #d9d9d9; }
+
+.footer {
+  color: #5b5b5b;
+  width: 100%;
+  height: 64px;
+  background: #272727;
+  font-size: 12px;
+  padding-top: 22px; }
+  .footer div {
+    width: 1200px;
+    margin: 0 auto; }
+    .footer div p {
+      text-align: center;
+      line-height: 20px; }
+
+/*# sourceMappingURL=company.css.map */

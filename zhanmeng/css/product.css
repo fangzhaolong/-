@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+* html .clearfix {
+  height: 1%;
+  zoom: 1; }
+
+.clearfix {
+  display: block;
+  zoom: 1; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.header {
+  width: 100%;
+  height: 108px;
+  background: url(../img/nav.png) no-repeat center center;
+  overflow: hidden; }
+  .header .clearfix {
+    width: 1200px;
+    height: 90px;
+    margin: 0 auto;
+    line-height: 90px; }
+    .header .clearfix .hleft {
+      width: 250px;
+      height: 38px;
+      float: left; }
+      .header .clearfix .hleft a {
+        display: inline-block;
+        width: 250px;
+        height: 38px;
+        margin-top: 28px;
+        margin-left: 106px;
+        background: url(../img/logo.png) no-repeat center center;
+        z-index: 10; }
+    .header .clearfix .hright {
+      height: 90px;
+      float: right;
+      margin-right: 84px; }
+      .header .clearfix .hright a {
+        color: #fcb7b8;
+        margin: 10px 21px;
+        text-decoration: none; }
+      .header .clearfix .hright a:link {
+        color: #fcb7b8; }
+      .header .clearfix .hright a:hover {
+        color: #fff; }
+      .header .clearfix .hright .a {
+        color: #fff; }
+
+.nav {
+  width: 100%;
+  height: 612px;
+  background: url(../img/product3.png) no-repeat center center;
+  background-position: center;
+  margin-top: -20px; }
+  .nav .navcontent {
+    width: 1087px;
+    height: 140px;
+    padding-left: 106px;
+    margin: 0 auto; }
+    .nav .navcontent a {
+      width: 164px;
+      height: 140px;
+      display: inline-block;
+      text-decoration: none;
+      overflow: hidden;
+      border-right: 1px solid #fff;
+      float: left;
+      position: relative;
+      overflow: hidden; }
+      .nav .navcontent a img {
+        position: absolute;
+        left: 0px;
+        top: 0; }
+      .nav .navcontent a .menter {
+        position: absolute;
+        left: -164px;
+        top: 0; }
+      .nav .navcontent a .mdown {
+        position: absolute;
+        left: -328px;
+        top: 0; }
+  .nav .introduction {
+    width: 1200px;
+    height: 472px;
+    margin: 0 auto; }
+    .nav .introduction div {
+      width: 412px;
+      height: 388px;
+      background: #d52c33;
+      opacity: 0.8;
+      filter: Alpha(opacity=80);
+      margin-left: 110px;
+      padding: 42px;
+      font-size: 12px;
+      line-height: 36px;
+      color: #fff;
+      display: none; }
+      .nav .introduction div p {
+        margin-top: 30px; }
+      .nav .introduction div .pcompany {
+        height: 36px; }
+        .nav .introduction div .pcompany a {
+          margin: 0;
+          float: right;
+          padding: 0 10px;
+          background: #fe4144;
+          text-decoration: none;
+          color: #fff; }
+    .nav .introduction .pp {
+      display: block; }
+
+.contentbox {
+  width: 100%;
+  height: 562px;
+  background: url(../img/product4.png) no-repeat;
+  overflow: hidden;
+  background-position: center; }
+  .contentbox .content {
+    width: 1200px;
+    height: 562px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .contentbox .content .contentright {
+      width: 412px;
+      height: 520px;
+      background: #d52c33;
+      margin-left: 606px;
+      padding: 42px 42px 0 42px;
+      font-size: 12px;
+      color: #fff;
+      position: relative;
+      overflow: hidden; }
+      .contentbox .content .contentright h4 {
+        font-size: 18px;
+        font-weight: 400; }
+      .contentbox .content .contentright .contentleft {
+        width: 100%;
+        position: relative; }
+        .contentbox .content .contentright .contentleft div {
+          width: 1px;
+          height: 441px;
+          *height: 466px !important;
+          background: #fff;
+          position: absolute;
+          overflow: hidden;
+          left: 10px;
+          top: 14px;
+          z-index: 100; }
+        .contentbox .content .contentright .contentleft ul {
+          width: 100%;
+          height: 490px;
+          list-style: none; }
+          .contentbox .content .contentright .contentleft ul li {
+            width: 100%;
+            font-size: 12px;
+            position: relative;
+            text-indent: 30px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            z-index: 1; }
+            .contentbox .content .contentright .contentleft ul li img {
+              width: 10px;
+              height: 10px;
+              position: absolute;
+              left: 6px;
+              top: 7px;
+              z-index: 10; }
+            .contentbox .content .contentright .contentleft ul li span {
+              line-height: 20px;
+              width: 124px;
+              display: inline-block;
+              float: left; }
+            .contentbox .content .contentright .contentleft ul li a {
+              width: 260px;
+              line-height: 20px;
+              padding-left: 20px;
+              text-indent: 0px;
+              display: inline-block;
+              text-decoration: none;
+              color: #FFFFFF;
+              float: left; }
+            .contentbox .content .contentright .contentleft ul li i {
+              width: 0;
+              height: 0;
+              clear: both; }
+          .contentbox .content .contentright .contentleft ul .pig {
+            width: 20px;
+            height: 20px;
+            margin-top: -4px;
+            margin-left: -5px; }
+
+.footer {
+  color: #5b5b5b;
+  width: 100%;
+  height: 64px;
+  background: #272727;
+  font-size: 12px;
+  padding-top: 22px; }
+  .footer div {
+    width: 1200px;
+    margin: 0 auto; }
+    .footer div p {
+      text-align: center;
+      line-height: 20px; }
+
+/*# sourceMappingURL=product.css.map */

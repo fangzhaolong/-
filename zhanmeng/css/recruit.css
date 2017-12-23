@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+* html .clearfix {
+  height: 1%;
+  zoom: 1; }
+
+.clearfix {
+  display: block;
+  zoom: 1; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.header {
+  width: 100%;
+  height: 108px;
+  background: url(../img/nav.png) no-repeat center center;
+  overflow: hidden; }
+  .header .clearfix {
+    width: 1200px;
+    height: 90px;
+    margin: 0 auto;
+    line-height: 90px; }
+    .header .clearfix .hleft {
+      width: 250px;
+      height: 38px;
+      float: left; }
+      .header .clearfix .hleft a {
+        display: inline-block;
+        width: 250px;
+        height: 38px;
+        margin-top: 28px;
+        margin-left: 106px;
+        background: url(../img/logo.png) center center no-repeat;
+        z-index: 10; }
+    .header .clearfix .hright {
+      height: 90px;
+      color: white;
+      float: right;
+      margin-right: 84px; }
+      .header .clearfix .hright a {
+        color: #ccc;
+        margin: 10px 21px;
+        text-decoration: none; }
+      .header .clearfix .hright a:link {
+        color: #ccc; }
+      .header .clearfix .hright a:hover {
+        color: #fff; }
+      .header .clearfix .hright .a {
+        color: #fff; }
+
+.banner {
+  width: 100%;
+  height: 612px;
+  background: url(../img/recruit1.png) repeat-y center center;
+  position: relative;
+  margin-top: -20px; }
+  .banner .bcontent {
+    width: 1200px;
+    height: 612px;
+    margin: 0 auto;
+    position: relative; }
+    .banner .bcontent .resume {
+      position: absolute;
+      width: 494px;
+      left: 600px; }
+      .banner .bcontent .resume .resumep {
+        color: #FFFFFF;
+        margin-top: 20px;
+        font-size: 14px;
+        width: 494px;
+        text-align: right; }
+      .banner .bcontent .resume .position {
+        margin-top: 20px;
+        padding: 20px 42px;
+        width: 494px;
+        list-style: none; }
+        .banner .bcontent .resume .position .positionli {
+          width: 100%;
+          border-top: 1px solid #dd565c; }
+          .banner .bcontent .resume .position .positionli p {
+            width: 100%;
+            height: 50px;
+            line-height: 50px; }
+            .banner .bcontent .resume .position .positionli p span {
+              color: white;
+              font-size: 16px;
+              float: left; }
+            .banner .bcontent .resume .position .positionli p i {
+              width: 15px;
+              height: 9px;
+              float: right;
+              display: inline-block;
+              position: relative;
+              margin-top: 20px;
+              margin-right: 8px;
+              overflow: hidden; }
+              .banner .bcontent .resume .position .positionli p i > img {
+                position: absolute;
+                left: 0;
+                top: 0; }
+          .banner .bcontent .resume .position .positionli div {
+            width: 100%;
+            height: 0;
+            overflow: hidden; }
+            .banner .bcontent .resume .position .positionli div p {
+              font-size: 14px;
+              color: #fff;
+              line-height: 26px; }
+              .banner .bcontent .resume .position .positionli div p span {
+                margin-right: 16px; }
+            .banner .bcontent .resume .position .positionli div h4 {
+              color: #fff;
+              font-size: 14px;
+              line-height: 58px;
+              font-weight: normal; }
+            .banner .bcontent .resume .position .positionli div ul {
+              width: 100%;
+              list-style: none; }
+              .banner .bcontent .resume .position .positionli div ul li {
+                width: 100%;
+                font-size: 12px;
+                color: #fff;
+                line-height: 22px; }
+          .banner .bcontent .resume .position .positionli .xx {
+            height: 264px; }
+        .banner .bcontent .resume .position .firstli {
+          border: none; }
+
+.t {
+  width: 100%;
+  overflow: hidden; }
+  .t p {
+    width: 100%;
+    height: 612px; }
+  .t .tp1 {
+    background: url(../img/recruit2.png) no-repeat center center; }
+  .t .tp2 {
+    background: url(../img/recruit3.png) no-repeat center center; }
+
+.footer {
+  color: #5b5b5b;
+  width: 100%;
+  height: 64px;
+  background: #272727;
+  font-size: 12px;
+  padding-top: 22px;
+  overflow: hidden; }
+  .footer div {
+    width: 1200px;
+    margin: 0 auto; }
+    .footer div p {
+      text-align: center;
+      line-height: 20px; }
+
+/*# sourceMappingURL=recruit.css.map */
