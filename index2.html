@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<title></title>
+		<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+		
+	</head>
+	<body>
+		<h3 id="menu-scan">微信扫一扫</h3>
+      <span class="desc">调起微信扫一扫接口</span>
+      <button class="btn btn_primary" id="scanQRCode0">scanQRCode(微信处理结果)</button>
+	</body>
+	<script type="text/javascript">
+			//通过config接口注入权限验证配置
+			wx.config({
+			    debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+			    appId: 'wx40753a6b33110f80', // 必填，公众号的唯一标识
+			    timestamp: '1511356815', // 必填，生成签名的时间戳
+			    nonceStr: 'fzlstyle', // 必填，生成签名的随机串
+			    signature: '5650f6f8cf483b717da503a74f34c1d6741965ba',// 必填，签名
+			    jsApiList: [
+		        'checkJsApi',
+		        'onMenuShareTimeline',
+		        'onMenuShareAppMessage',
+		        'onMenuShareQQ',
+		        'onMenuShareWeibo',
+		        'onMenuShareQZone',
+		        'hideMenuItems',
+		        'showMenuItems',
+		        'hideAllNonBaseMenuItem',
+		        'showAllNonBaseMenuItem',
+		        'translateVoice',
+		        'startRecord',
+		        'stopRecord',
+		        'onVoiceRecordEnd',
+		        'playVoice',
+		        'onVoicePlayEnd',
+		        'pauseVoice',
+		        'stopVoice',
+		        'uploadVoice',
+		        'downloadVoice',
+		        'chooseImage',
+		        'previewImage',
+		        'uploadImage',
+		        'downloadImage',
+		        'getNetworkType',
+		        'openLocation',
+		        'getLocation',
+		        'hideOptionMenu',
+		        'showOptionMenu',
+		        'closeWindow',
+		        'scanQRCode',
+		        'chooseWXPay',
+		        'openProductSpecificView',
+		        'addCard',
+		        'chooseCard',
+		        'openCard'
+		      ] // 必填，需要使用的JS接口列表
+			});
+			//通过ready接口处理成功验证
+			wx.ready(function(){
+				
+   		document.querySelector('#scanQRCode0').onclick = function() {
+			    wx.scanQRCode();
+			  };
+   	
+   
+				
+				// config信息验证后会执行ready方法，所有接口调用都必须在config接口获得结果之后
+			});
+		</script>
+</html>
